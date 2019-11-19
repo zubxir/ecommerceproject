@@ -1,8 +1,10 @@
 <h1> Inventory: </h1>
-<%= form_tag(champion_path, method: :get) do%>
+<%= form_tag(products_path, method: :get) do%>
 
-<%= radio_button_tag 'options', 1, false %> Champion
-<%= radio_button_tag 'options', 2, false %> Spell <br/>
+<%= radio_button_tag 'options', 1, false %> Health
+<%= radio_button_tag 'options', 2, false %> Flu
+<%= radio_button_tag 'options', 3, false %> Sleep
+<%= radio_button_tag 'options', 4, false %> Topical <br/>
 <%= text_field_tag(:search, params[:search]) %>
 <%= submit_tag ("Search") %>
 <% end %>
