@@ -1,4 +1,11 @@
-<h1> Listing Products </h1>
+<h1> Inventory: </h1>
+<%= form_tag(champion_path, method: :get) do%>
+
+<%= radio_button_tag 'options', 1, false %> Champion
+<%= radio_button_tag 'options', 2, false %> Spell <br/>
+<%= text_field_tag(:search, params[:search]) %>
+<%= submit_tag ("Search") %>
+<% end %>
 
 <table>
 <thead>
@@ -14,7 +21,7 @@
     <tbody>
     <% @product.each do |product| %>
       <tr>
-        <td><%= product.productname %></td>
+        <td><%= link_to product.productname, "products/#{product.id}" %></td>
         <td><%= product.description %></td>
         <td><%= product.price %></td>
         <td><%= product.quantity %></td>
