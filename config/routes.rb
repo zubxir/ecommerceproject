@@ -5,6 +5,8 @@ Rails.application.routes.draw do
   get '/products', to: 'products#index'
   get '/about', to: 'about#index'
   get '/products/:id', to: 'products#show', id: /\d+/
+  get '/category', to: 'category#index'
+  get '/category/:id', to: 'category#show', id: /\d+/
 
   root to: 'welcome#index'
   devise_for :admin_users, ActiveAdmin::Devise.config

@@ -1,6 +1,23 @@
+<table>
+<thead>
+<tr>
+<th>Product name</th>
+<th>Description</th>
+<th>Price</th>
+<th>Quantity</th>
+<th>Category</th>
+<th>Image</th>
+  </tr>
+  </thead>
+
+    <tbody>
+      <tr>
         <br/><td><%= @product.productname %></td>
         <td><%= @product.description %></td>
         <td><%= @product.price %></td>
         <td><%= @product.quantity %></td>
-        <td><%= @product.category%> </td>
+        <td><%= @product.category.categoryname%> </td>
         <td><%= image_tag @product.image %></td>
+      </tr>
+  </tbody>
+</table>

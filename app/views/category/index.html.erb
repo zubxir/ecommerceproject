@@ -1,0 +1,6 @@
+<h1>Cotton Road</h1>
+
+<% @category.each do |cat| %>
+<ul><h2><%=link_to cat.categoryname, "category/#{cat.id}" %></h2></ul>
+
+<% end %>

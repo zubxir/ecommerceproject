@@ -1,10 +1,11 @@
 <h1> Inventory: </h1>
 <%= form_tag(products_path, method: :get) do%>
 
-<%= radio_button_tag 'options', 1, false %> Health
-<%= radio_button_tag 'options', 2, false %> Flu
-<%= radio_button_tag 'options', 3, false %> Sleep
-<%= radio_button_tag 'options', 4, false %> Topical <br/>
+<%= radio_button_tag 'options', 1, true %> Product
+<%= radio_button_tag 'options', 2, false %> Health
+<%= radio_button_tag 'options', 3, false %> Flu
+<%= radio_button_tag 'options', 4, false %> Sleep
+<%= radio_button_tag 'options', 5, false %> Topical <br/>
 <%= text_field_tag(:search, params[:search]) %>
 <%= submit_tag ("Search") %>
 <% end %>
@@ -16,18 +17,19 @@
 <th>Description</th>
 <th>Price</th>
 <th>Quantity</th>
+<th>Category</th>
 <th>Image</th>
   </tr>
   </thead>
 
     <tbody>
-    <% @product.each do |product| %>
+    <%@product.each do |product| %>
       <tr>
         <td><%= link_to product.productname, "products/#{product.id}" %></td>
         <td><%= product.description %></td>
         <td><%= product.price %></td>
         <td><%= product.quantity %></td>
-        <td><%= product.category%> </td>
+        <td><%= product.category.categoryname%> </td>
         <td><%= image_tag product.image %></td>
       </tr>
     <% end %>
