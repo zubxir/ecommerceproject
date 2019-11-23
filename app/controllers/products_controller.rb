@@ -22,7 +22,7 @@ class ProductsController < ApplicationController
 
       end
     else
-      @product = Product.order(:productname).page(params[:page])
+      @product = Product.order(:productname).page(params[:page]).per(5)
     end
   end
 

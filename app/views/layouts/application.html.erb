@@ -3,6 +3,7 @@
   <head>
     <title>Cotton Road</title>
         <%= link_to "Home", "http://localhost:3000/welcome"%>
+        <%= link_to "Products", "http://localhost:3000/products"%>
         <%= link_to "About", "http://localhost:3000/about"%>
         <%= link_to "Categories", "http://localhost:3000/category"%>
     <%= csrf_meta_tags %>
@@ -13,6 +14,12 @@
   </head>
 
   <body>
+  <% if notice %>
+  <p class="alert alert-success"><%= notice %></p>
+<% end %>
+<% if alert %>
+  <p class="alert alert-danger"><%= alert %></p>
+<% end %>
     <%= yield %>
   </body>
 </html>
