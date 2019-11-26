@@ -1,0 +1,20 @@
+<h1> Thank you for your order! </h1>
+
+<table>
+<h3> Items Ordered: </h3>
+<%= form_for(:quantity) do |f| %>
+<% @cart.each do |product| %>
+        <tr>
+        <td><li><%= product.productname %> - <%= number_to_currency product.price / 1.0 %>  <%= f.label :quantity %> <%= 1 %> </li></td>
+        </tr>
+      <% end %>
+      </table>
+<% end %>
+<strong>PST: <%= number_to_currency @cart.sum(&:price) * 0.07 %> </strong><br/>
+<strong>GST: <%= number_to_currency @cart.sum(&:price) * 0.05 %> </strong><br/>
+<strong>Total: <%= number_to_currency @cart.sum(&:price) * 1.12 %> </strong><br/>
+
+<h2> Thanks fer yer Dollars Bucko </h2>
+
+
+

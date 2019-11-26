@@ -1,0 +1,15 @@
+<h1> Shopping Cart: </h1>
+<table>
+<%= form_for(:quantity) do |f| %>
+<% @cart.each do |product| %>
+
+        <tr>
+        <td><li><%= product.productname %> - <%= number_to_currency product.price / 1.0 %> -
+        <%= link_to 'Remove from Cart', remove_from_cart_path(product), method: :delete %> - <%= f.label :quantity %>     <%= f.select :quantity, ['1', '2','3','4','5','6','7','8','9']%></li></td>
+        </tr>
+      <% end %>
+      </table>
+  <% end %>
+  <strong>Subtotal: <%= number_to_currency @cart.sum(&:price) %> </strong><br/>
+<%= link_to "Checkout", "http://localhost:3000/products/checkout"%>
+

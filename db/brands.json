@@ -1,0 +1,604 @@
+{
+  "results": [
+    {
+      "term": "Ibuprofen",
+      "count": 470
+    },
+    {
+      "term": "Oxygen",
+      "count": 337
+    },
+    {
+      "term": "Gabapentin",
+      "count": 217
+    },
+    {
+      "term": "Amoxicillin",
+      "count": 192
+    },
+    {
+      "term": "Allergy Relief",
+      "count": 162
+    },
+    {
+      "term": "Hand Sanitizer",
+      "count": 156
+    },
+    {
+      "term": "Salicylic Acid",
+      "count": 151
+    },
+    {
+      "term": "Omeprazole",
+      "count": 130
+    },
+    {
+      "term": "Losartan Potassium",
+      "count": 129
+    },
+    {
+      "term": "Hydrochlorothiazide",
+      "count": 124
+    },
+    {
+      "term": "Ranitidine",
+      "count": 121
+    },
+    {
+      "term": "Metoprolol Tartrate",
+      "count": 120
+    },
+    {
+      "term": "Fluoxetine",
+      "count": 119
+    },
+    {
+      "term": "Metformin Hydrochloride",
+      "count": 117
+    },
+    {
+      "term": "Ondansetron",
+      "count": 117
+    },
+    {
+      "term": "Metronidazole",
+      "count": 116
+    },
+    {
+      "term": "Potassium Chloride",
+      "count": 116
+    },
+    {
+      "term": "Methocarbamol",
+      "count": 115
+    },
+    {
+      "term": "Prednisone",
+      "count": 114
+    },
+    {
+      "term": "Amoxicillin and Clavulanate Potassium",
+      "count": 113
+    },
+    {
+      "term": "Cyclobenzaprine Hydrochloride",
+      "count": 113
+    },
+    {
+      "term": "Levetiracetam",
+      "count": 112
+    },
+    {
+      "term": "Lorazepam",
+      "count": 112
+    },
+    {
+      "term": "Acetaminophen",
+      "count": 111
+    },
+    {
+      "term": "Glipizide",
+      "count": 111
+    },
+    {
+      "term": "Naproxen Sodium",
+      "count": 111
+    },
+    {
+      "term": "Atenolol",
+      "count": 110
+    },
+    {
+      "term": "Aspirin",
+      "count": 109
+    },
+    {
+      "term": "Doxycycline Hyclate",
+      "count": 109
+    },
+    {
+      "term": "Azithromycin",
+      "count": 108
+    },
+    {
+      "term": "Acyclovir",
+      "count": 107
+    },
+    {
+      "term": "Furosemide",
+      "count": 107
+    },
+    {
+      "term": "Levofloxacin",
+      "count": 104
+    },
+    {
+      "term": "Ciprofloxacin",
+      "count": 103
+    },
+    {
+      "term": "Cephalexin",
+      "count": 102
+    },
+    {
+      "term": "Famotidine",
+      "count": 102
+    },
+    {
+      "term": "Bupropion Hydrochloride",
+      "count": 99
+    },
+    {
+      "term": "Naproxen",
+      "count": 97
+    },
+    {
+      "term": "Pantoprazole Sodium",
+      "count": 97
+    },
+    {
+      "term": "ATORVASTATIN CALCIUM",
+      "count": 95
+    },
+    {
+      "term": "Levothyroxine Sodium",
+      "count": 94
+    },
+    {
+      "term": "Lidocaine",
+      "count": 94
+    },
+    {
+      "term": "Stool Softener",
+      "count": 94
+    },
+    {
+      "term": "Sulfamethoxazole and Trimethoprim",
+      "count": 94
+    },
+    {
+      "term": "Atorvastatin Calcium",
+      "count": 92
+    },
+    {
+      "term": "Diclofenac Sodium",
+      "count": 92
+    },
+    {
+      "term": "Lisinopril",
+      "count": 92
+    },
+    {
+      "term": "Alprazolam",
+      "count": 91
+    },
+    {
+      "term": "Diazepam",
+      "count": 89
+    },
+    {
+      "term": "Carvedilol",
+      "count": 88
+    },
+    {
+      "term": "Clonazepam",
+      "count": 86
+    },
+    {
+      "term": "Nitrogen",
+      "count": 86
+    },
+    {
+      "term": "Promethazine Hydrochloride",
+      "count": 86
+    },
+    {
+      "term": "Phentermine Hydrochloride",
+      "count": 85
+    },
+    {
+      "term": "Cetirizine Hydrochloride",
+      "count": 84
+    },
+    {
+      "term": "Olanzapine",
+      "count": 83
+    },
+    {
+      "term": "Amlodipine Besylate",
+      "count": 82
+    },
+    {
+      "term": "Fenofibrate",
+      "count": 82
+    },
+    {
+      "term": "Hydrocodone Bitartrate and Acetaminophen",
+      "count": 82
+    },
+    {
+      "term": "Hydrocortisone",
+      "count": 82
+    },
+    {
+      "term": "Sertraline Hydrochloride",
+      "count": 82
+    },
+    {
+      "term": "Trazodone Hydrochloride",
+      "count": 82
+    },
+    {
+      "term": "Mirtazapine",
+      "count": 79
+    },
+    {
+      "term": "Propranolol Hydrochloride",
+      "count": 77
+    },
+    {
+      "term": "Triamcinolone Acetonide",
+      "count": 77
+    },
+    {
+      "term": "Buspirone Hydrochloride",
+      "count": 76
+    },
+    {
+      "term": "Ketorolac Tromethamine",
+      "count": 76
+    },
+    {
+      "term": "Topiramate",
+      "count": 76
+    },
+    {
+      "term": "Allopurinol",
+      "count": 74
+    },
+    {
+      "term": "OXYGEN",
+      "count": 73
+    },
+    {
+      "term": "Paroxetine",
+      "count": 73
+    },
+    {
+      "term": "Sildenafil",
+      "count": 73
+    },
+    {
+      "term": "Loratadine",
+      "count": 72
+    },
+    {
+      "term": "Fluticasone Propionate",
+      "count": 71
+    },
+    {
+      "term": "Hydroxyzine Hydrochloride",
+      "count": 71
+    },
+    {
+      "term": "Miconazole Nitrate",
+      "count": 70
+    },
+    {
+      "term": "Penicillin V Potassium",
+      "count": 70
+    },
+    {
+      "term": "Clobetasol Propionate",
+      "count": 69
+    },
+    {
+      "term": "Divalproex Sodium",
+      "count": 69
+    },
+    {
+      "term": "Spironolactone",
+      "count": 69
+    },
+    {
+      "term": "GABAPENTIN",
+      "count": 67
+    },
+    {
+      "term": "Nifedipine",
+      "count": 67
+    },
+    {
+      "term": "Warfarin Sodium",
+      "count": 67
+    },
+    {
+      "term": "Nicotine",
+      "count": 66
+    },
+    {
+      "term": "LISINOPRIL",
+      "count": 65
+    },
+    {
+      "term": "Lamotrigine",
+      "count": 65
+    },
+    {
+      "term": "Hydrogen Peroxide",
+      "count": 64
+    },
+    {
+      "term": "Nystatin",
+      "count": 64
+    },
+    {
+      "term": "Fluconazole",
+      "count": 62
+    },
+    {
+      "term": "Glimepiride",
+      "count": 62
+    },
+    {
+      "term": "Indomethacin",
+      "count": 62
+    },
+    {
+      "term": "Diltiazem Hydrochloride",
+      "count": 61
+    },
+    {
+      "term": "Lovastatin",
+      "count": 61
+    },
+    {
+      "term": "Tolnaftate",
+      "count": 61
+    },
+    {
+      "term": "citroma",
+      "count": 61
+    },
+    {
+      "term": "Finasteride",
+      "count": 60
+    },
+    {
+      "term": "Gas Relief Extra Strength",
+      "count": 60
+    },
+    {
+      "term": "Hydralazine Hydrochloride",
+      "count": 60
+    },
+    {
+      "term": "Baclofen",
+      "count": 59
+    },
+    {
+      "term": "Cefdinir",
+      "count": 59
+    },
+    {
+      "term": "Dicyclomine Hydrochloride",
+      "count": 59
+    },
+    {
+      "term": "Doxycycline",
+      "count": 59
+    },
+    {
+      "term": "Etodolac",
+      "count": 59
+    },
+    {
+      "term": "benzonatate",
+      "count": 59
+    },
+    {
+      "term": "Aripiprazole",
+      "count": 58
+    },
+    {
+      "term": "Lidocaine Hydrochloride",
+      "count": 58
+    },
+    {
+      "term": "Dandruff",
+      "count": 57
+    },
+    {
+      "term": "Fluocinonide",
+      "count": 57
+    },
+    {
+      "term": "Losartan Potassium and Hydrochlorothiazide",
+      "count": 57
+    },
+    {
+      "term": "ibuprofen",
+      "count": 56
+    },
+    {
+      "term": "Escitalopram",
+      "count": 55
+    },
+    {
+      "term": "Headache Relief Extra Strength",
+      "count": 54
+    },
+    {
+      "term": "Sodium Chloride",
+      "count": 54
+    },
+    {
+      "term": "Benazepril Hydrochloride",
+      "count": 53
+    },
+    {
+      "term": "Doxazosin",
+      "count": 53
+    },
+    {
+      "term": "Oxybutynin Chloride",
+      "count": 53
+    },
+    {
+      "term": "PRAVASTATIN SODIUM",
+      "count": 53
+    },
+    {
+      "term": "Diphenhydramine Hydrochloride",
+      "count": 52
+    },
+    {
+      "term": "Nabumetone",
+      "count": 52
+    },
+    {
+      "term": "Lisinopril and Hydrochlorothiazide",
+      "count": 51
+    },
+    {
+      "term": "Lithium Carbonate",
+      "count": 51
+    },
+    {
+      "term": "Citalopram",
+      "count": 50
+    },
+    {
+      "term": "METFORMIN HYDROCHLORIDE",
+      "count": 50
+    },
+    {
+      "term": "Montelukast Sodium",
+      "count": 50
+    },
+    {
+      "term": "Rosuvastatin Calcium",
+      "count": 50
+    },
+    {
+      "term": "Sleep Aid",
+      "count": 50
+    },
+    {
+      "term": "Tamsulosin Hydrochloride",
+      "count": 50
+    },
+    {
+      "term": "AMITRIPTYLINE HYDROCHLORIDE",
+      "count": 49
+    },
+    {
+      "term": "Antispetic",
+      "count": 49
+    },
+    {
+      "term": "Ondansetron Hydrochloride",
+      "count": 48
+    },
+    {
+      "term": "Triamterene and Hydrochlorothiazide",
+      "count": 48
+    },
+    {
+      "term": "Venlafaxine Hydrochloride",
+      "count": 48
+    },
+    {
+      "term": "Duloxetine",
+      "count": 47
+    },
+    {
+      "term": "Isopropyl Alcohol",
+      "count": 47
+    },
+    {
+      "term": "Minocycline Hydrochloride",
+      "count": 47
+    },
+    {
+      "term": "Celecoxib",
+      "count": 46
+    },
+    {
+      "term": "Clindamycin Hydrochloride",
+      "count": 46
+    },
+    {
+      "term": "Nortriptyline Hydrochloride",
+      "count": 46
+    },
+    {
+      "term": "Tizanidine",
+      "count": 46
+    },
+    {
+      "term": "Valsartan and Hydrochlorothiazide",
+      "count": 46
+    },
+    {
+      "term": "Clopidogrel",
+      "count": 45
+    },
+    {
+      "term": "Esomeprazole Magnesium",
+      "count": 45
+    },
+    {
+      "term": "Glycopyrrolate",
+      "count": 45
+    },
+    {
+      "term": "Haloperidol",
+      "count": 45
+    },
+    {
+      "term": "Metaxalone",
+      "count": 45
+    },
+    {
+      "term": "Triple Antibiotic",
+      "count": 45
+    },
+    {
+      "term": "Zolpidem Tartrate",
+      "count": 45
+    },
+    {
+      "term": "Advanced Hand Sanitizer",
+      "count": 44
+    },
+    {
+      "term": "Anticavity",
+      "count": 44
+    },
+    {
+      "term": "Metoprolol succinate",
+      "count": 44
+    }
+  ]
+}

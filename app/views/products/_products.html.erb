@@ -1,4 +1,19 @@
 <h1> Inventory: </h1>
+<details>
+  <summary>Shopping Cart</summary>
+  <% if @cart.empty? %>
+    <p>No items in cart.</p>
+  <% else %>
+    <ul>
+      <% @cart.each do |product| %>
+        <li><%= product.productname %> - <%= link_to 'remove from cart', remove_from_cart_path(product), method: :delete %></li>
+      <% end %>
+                    <%= link_to "Checkout", "http://localhost:3000/products/cart"%>
+
+
+    </ul>
+  <% end %>
+</details>
 <%= form_tag(products_path, method: :get) do%>
 
 <%= radio_button_tag 'options', 1, true %> Product
@@ -14,11 +29,12 @@
 <thead>
 <tr>
 <th>Product name</th>
+<th></th>
 <th>Description</th>
 <th>Price</th>
 <th>Quantity</th>
 <th>Category</th>
-<th>Image</th>
+<th>Buy Now</th>
   </tr>
   </thead>
 
@@ -26,11 +42,19 @@
     <%@product.each do |product| %>
       <tr>
         <td><%= link_to product.productname, "products/#{product.id}" %></td>
+        <% if product.image%>
+          <td><%= image_tag product.image, height: 150, width: 150 %></td>
+          <% end %>
         <td><%= product.description %></td>
-        <td><%= product.price %></td>
+        <td><%= number_to_currency product.price / 1.0 %></td>
         <td><%= product.quantity %></td>
         <td><%= product.category.categoryname%> </td>
-        <td><%= image_tag product.image %></td>
+        <td><%= button_to "Buy Now!", checkout_create_path, params: { id: product.id }, remote: true %></td>
+        <% if @cart.include?(product) %>
+          <td>Product is in your cart</td>
+          <%else%>
+        <td><%= button_to "Add to Cart", add_to_cart_path(product.id), method: :post %></td>
+        <%end%>
       </tr>
     <% end %>
   </tbody>
