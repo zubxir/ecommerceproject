@@ -6,10 +6,10 @@
   <% else %>
     <ul>
       <% @cart.each do |product| %>
-        <li><%= product.productname %> - <%= link_to 'remove from cart', remove_from_cart_path(product), method: :delete %></li>
+        <li><%= product.productname %> - <%= number_to_currency product.price / 1.0 %> - <%= link_to 'remove from cart', remove_from_cart_path(product), method: :delete %></li>
       <% end %>
-                    <%= link_to "Checkout", "http://localhost:3000/products/cart"%>
-
+        <br/><strong>Cart total: <%= number_to_currency @cart.sum(&:price) %> </strong><br/>
+    <%= link_to "Checkout", "http://localhost:3000/products/cart"%>
 
     </ul>
   <% end %>
@@ -51,7 +51,7 @@
         <td><%= product.category.categoryname%> </td>
         <td><%= button_to "Buy Now!", checkout_create_path, params: { id: product.id }, remote: true %></td>
         <% if @cart.include?(product) %>
-          <td>Product is in your cart</td>
+          <td><%= button_to 'Remove from Cart', remove_from_cart_path(product), method: :delete %></td>
           <%else%>
         <td><%= button_to "Add to Cart", add_to_cart_path(product.id), method: :post %></td>
         <%end%>

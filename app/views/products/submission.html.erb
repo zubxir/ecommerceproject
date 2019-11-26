@@ -12,11 +12,14 @@
 <% end %>
 
 <h3> Order Details </h3>
+<% if user_signed_in? %>
 <td><strong><%= current_user.name %></strong><br/></td>
 <strong><%= current_user.address %></strong><br/>
 <strong><%= current_user.city %>, <%= current_user.province %></strong><br/>
 <strong><%= current_user.postalcode %></strong><br/>
-
+<% else %>
+<h2><%= "You are not signed in!" %></h2>
+<% end %>
 
 <br/><strong>PST: <%= number_to_currency @cart.sum(&:price) * 0.07 %> </strong><br/>
 <strong>GST: <%= number_to_currency @cart.sum(&:price) * 0.05 %> </strong><br/>

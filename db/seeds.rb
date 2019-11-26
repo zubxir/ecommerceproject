@@ -10,7 +10,7 @@ data = ActiveSupport::JSON.decode(File.read('db/brands.json'))
 #   )
 # end
 
-data.each do |term|
+# data.each do |term|
   # puts term[1]
   term[1].each do |prod|
     # puts prod['term']

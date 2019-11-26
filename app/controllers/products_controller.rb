@@ -2,6 +2,7 @@
 
 class ProductsController < ApplicationController
   before_action :initialize_session
+  before_action :authenticate_user!
   before_action :load_cart
 
   def index
@@ -50,6 +51,10 @@ class ProductsController < ApplicationController
 
   def load_cart
     @cart = Product.find(session[:cart])
+  end
+
+  def destroy
+    @cart = session[:cart] = nil
   end
 
   private
