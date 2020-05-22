@@ -12,7 +12,7 @@ gem 'sqlite3', '~> 1.4'
 # Use Puma as the app server
 gem 'faker'
 gem 'kaminari'
-gem 'puma', '~> 4.1'
+gem 'puma', '~> 4.3'
 gem 'stripe'
 # Use SCSS for stylesheets
 gem 'activeadmin'
